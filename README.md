@@ -6,11 +6,15 @@ El script permite la instalación externa de extensiones en Google Chrome. Basad
 
 ## ¿Qué hace este script?
 Al lanzar este script, se ejecutará un proceso paso a paso para instalar aquellas extensiones que se deseen de la lista de extensiones disponibles.<br>
-Las extensiones instaladas quedarán en su perfil de MacOS, esto significa que incluso cuando cierre la sesión y vuelva a inciciar sesión en un Mac de 42, las extensiones se instalarán automáticamente de nuevo. (O así lo solicitará el navegador - Punto 1. de Problemas conocidos). <br>
+Las extensiones instaladas quedarán en su perfil de MacOS, esto significa que incluso cuando cierre la sesión y vuelva a inciciar sesión en un Mac de 42, las extensiones se instalarán automáticamente de nuevo. (O así lo solicitará el navegador - Punto 1. de Problemas conocidos).
+
 Las actualizaciones de las extensiones se realizarán automáticamente, ya que la instalación inicial es directamente desde la [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)<br>
+
 Tenga en cuenta que después de ejecutar el script por primera vez, deberá salir de Chrome por completo y volver a abrirlo.
 
-La manera en la que se "fuerzan" la instalación de extensiones y su funcionamiento, está basada en según la [documentación oficial](https://developer.chrome.com/docs/extensions/mv2/external_extensions/) de Google Chrome para instalación Externa de Extensiones.
+> La manera en la que se "fuerzan" la instalación de extensiones y su funcionamiento, está basada en según la [documentación oficial](https://developer.chrome.com/docs/extensions/mv2/external_extensions/) de Google Chrome para instalación Externa de Extensiones.
+
+Las extensiones se pueden desinstalar directamente desde el propio apartado de [Extensiones](chrome://extensions) del menú de Google Chrome. <br>
 
 ## Extensiones disponibles: 
 - [Improved Intra 42](https://chrome.google.com/webstore/detail/hmflgigeigiejaogcgamkecmlibcpdgo). Mejora el aspecto de la intranet de 42. Agrega mejoras, como el modo oscuro, perfiles personalizables y mucho más.
