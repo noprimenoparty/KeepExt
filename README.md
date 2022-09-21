@@ -6,7 +6,7 @@ El script permite la instalación externa de extensiones en Google Chrome. Basad
 
 ## ¿Qué hace este script?
 Al lanzar este script, se ejecutará un proceso paso a paso para instalar aquellas extensiones que se deseen de la lista de extensiones disponibles.<br>
-Las extensiones instaladas quedarán en su perfil de MacOS, esto significa que incluso cuando cierre la sesión y vuelva a inciciar sesión en un Mac de 42, las extensiones se instalarán automáticamente de nuevo. (O así lo solicitará el navegador - Punto 1. de Problemas conocidos).
+Las extensiones instaladas quedarán en su perfil de MacOS, esto significa que incluso cuando cierre la sesión y vuelva a iniciar sesión en un Mac de 42, las extensiones se instalarán automáticamente de nuevo. (O así lo solicitará el navegador - Punto 1. de Problemas conocidos).
 
 Las actualizaciones de las extensiones se realizarán automáticamente, ya que la instalación inicial es directamente desde la [Chrome Web Store](https://chrome.google.com/webstore/category/extensions)<br>
 
