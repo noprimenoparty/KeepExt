@@ -4,14 +4,14 @@ red=$(tput setaf 1)
 green=$(tput setaf 2)
 normal=$(tput sgr0)
 echo "==================================================================="
-echo "${bold}Instalador de Extensiones Externas para Google Chrome, version 1.0${normal}"
+echo "${bold}Instalador de Extensiones Externas para Google Chrome, version 2.0${normal}"
 echo "==================================================================="
 echo
 if [ "$(uname)" != "Darwin" ]; then
 	echo "Este script sólo funciona en macOS. Para instalar extensiones en Windows o Linux, por favor hazlo desde Chrome Web Store."
 	exit
 fi
-cd ~/Library/ApplicationSupport/Google/Chrome/
+cd ~/Library/Application\ Support/Google/Chrome
 if [ ! -d "External Extensions/" ]; then
 	echo "Creando directorio Chrome External Extensions en tu perfil..."
 	mkdir -p "External Extensions"
@@ -45,6 +45,16 @@ while true; do
 	read -p "Instalar ${bold}intrafriends42${normal}? [Y/n] " yn
 	case $yn in
 		[Yy]* ) echo '{ "external_update_url": "https://clients2.google.com/service/update2/crx" }' > "baehliedggippdholddgbdlhhmiaoioc.json"; echo "${green}Instalada.${normal}"; break;;
+		[Nn]* ) echo "${red}Cancelada.${normal}"; break;;
+		* ) echo "Respuesta no valida.";;
+	esac
+done
+echo
+
+while true; do
+	read -p "Instalar ${bold}ft_blackhole${normal}? [Y/n] " yn
+	case $yn in
+		[Yy]* ) echo '{ "external_update_url": "https://clients2.google.com/service/update2/crx" }' > "pofhnleglcpmmkkaohhadcmombagfeie.json"; echo "${green}Instalada.${normal}"; break;;
 		[Nn]* ) echo "${red}Cancelada.${normal}"; break;;
 		* ) echo "Respuesta no valida.";;
 	esac
