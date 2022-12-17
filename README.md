@@ -20,6 +20,7 @@ Las extensiones se pueden desinstalar directamente desde el propio apartado de [
 - [Improved Intra 42](https://chrome.google.com/webstore/detail/hmflgigeigiejaogcgamkecmlibcpdgo). Mejora el aspecto de la intranet de 42. Agrega mejoras, como el modo oscuro, perfiles personalizables y mucho más.
 - [Intra42Nova](https://chrome.google.com/webstore/detail/intra42nova/fnehnflgpiaemngoknikolkcgcigabhc). Agrega la progresión del White Nova en tu Intra de 42 Madrid.
 - [intrafriends42](https://chrome.google.com/webstore/detail/intrafriends42/baehliedggippdholddgbdlhhmiaoioc). Añade amigos y conoce su puesto de trabajo desde la barra lateral de la intranet.
+- [ft_blackhole](https://chrome.google.com/webstore/detail/ftblackhole/pofhnleglcpmmkkaohhadcmombagfeie). Muestra los días restantes para ser absorvido por el Black Hole (bajo de la fecha).
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm). Bloqueador de anuncios.
 
 ## Problemas conocidos:
@@ -29,3 +30,10 @@ Las extensiones se pueden desinstalar directamente desde el propio apartado de [
 
 ## ¿Tienes alguna extensión util que quieras compartir?
 Pincha y [crea un ticket](https://github.com/noprimenoparty/KeepExt/issues/new) para indicarnos que extensión debemos agregar, revisarla y poder añadirla a la lista. Además estará visible para todes los usuaries y así pueden reaccionar y dar su opinión sobre ella.
+
+## Control de Versiones
+v.2.0
+- Soporte para MacOS Catalina
+- Nueva extensión: [ft_blackhole](https://chrome.google.com/webstore/detail/ftblackhole/pofhnleglcpmmkkaohhadcmombagfeie).
+
+v.1.0
