@@ -36,5 +36,5 @@ v.2.0
 - Soporte para MacOS Catalina
 - Nueva extensión: [ft_blackhole](https://chrome.google.com/webstore/detail/ftblackhole/pofhnleglcpmmkkaohhadcmombagfeie).
 
-# v.1.0
+v.1.0
 - Versión inicial.
